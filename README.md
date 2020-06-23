@@ -40,6 +40,7 @@ turtle build:android \
 --keystore-alias $KEYSTORE_ALIAS -t apk
 ```
 To get the output file in the `.aab` format simply omit the ` -t apk` argument.
+
 10. The whole process takes a few minutes. Once it finishes you can find the generated file in the `~/expo-apps` directory. To get it out of the container we can move it to our app directory with:
 ```
 mv ~/expo-apps/<your_file_name>.aab ~/alert_app/
